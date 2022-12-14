@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,300&display=swap');
+
+body{
+    font-family: fantasy;
+	background-color: black;
+	color: mediumpurple;
+	
+}
+header{
+	border-top: 10px solid #34273C;
+	padding: 30px;
+	background-color: black;
+}
+h1{
+	font-size:4em;
+    color: gold;
+    text-align:center; 
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    
+}
+nav ul{
+	list-style-type: none;
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 15px 0;
+    margin-top:0;
+    border-top: #022837 2px solid;
+    border-bottom: #022837 2px solid;
+
+}
+nav li{
+	display: inline;
+    margin: 5px 10px;
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+}
+nav a:link{
+	color: gold;
+}
+nav a:visited{
+	color: gold;
+}
+nav a:hover{
+	color: white;
+    text-decoration:none;
+}
+nav a:active{
+	color: black;
+}
+
+main{
+	max-width: 1200px;
+	margin:0 auto;
+}
+.home-hero{
+
+	background-image:url(images/eagal.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: black;
+	padding: 10px 10px 10px 30px; 
+}
+
+
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+    font-weight:bold;
+
+}
+h3{
+	margin-top:1px;
+	margin-bottom:20px;
+	font-weight:bold;
+    
+}
+img{
+    margin:0 auto;
+    
+}
+.col-sm-4 h3{
+    text-align:center;
+}
+blockquote{
+	margin: 30px 0;
+	padding-left: 20px;
+}
+footer{
+	color:white;
+	background-color: yellowgreen;
+	margin:40px 0 0 0;
+	display:block;
+}
+footer a:link{
+    color:gold;
+}
+.footer-bottom{
+	background-color: black;
+	padding: 10px;
+	color: gray;
+	text-align:center;
+}
+.icons .fa{
+    color: yellowgreen;
+}
+.footer1000{
+	
+	padding: 40px 0 ;
+    color: gold;
+    max-width:1000px;
+    margin:0 auto;
+    
+}
+
+.fa-binoculars{
+	font-size: 130px;
+	text-align: center;
+	display:block;
+	margin-left: 40px;
+	margin-top: 10px;
+	color: yellowgreen;
+	
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
+
